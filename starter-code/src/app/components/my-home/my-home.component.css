@@ -1,0 +1,17 @@
+.movie-wrapper {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+.movie-card {
+  width: 20vw;
+  padding: 10px;
+  margin: 20px;
+}
+
+.movie-card img {
+  width: 100%;
+}

@@ -1,0 +1,6 @@
+<div class="movie-wrapper">
+  <div class="movie-card" *ngFor="let movie of moviesArray">
+    <h1>Room: {{movie.rooms}}</h1>
+    <a [routerLink]="['/movie', movie.id]"><img [src] = "movie.poster" /></a>
+  </div>
+</div>
